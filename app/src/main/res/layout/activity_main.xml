@@ -55,6 +55,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Show" />
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:visibility="gone"
+        android:layout_marginTop="8dp" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
@@ -63,13 +71,6 @@
 
         android:layout_marginTop="16dp" />
 
-    <TextView
-        android:id="@+id/tvError"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FF0000"
-        android:visibility="gone"
-        android:layout_marginTop="8dp" />
 
 
 </LinearLayout>
